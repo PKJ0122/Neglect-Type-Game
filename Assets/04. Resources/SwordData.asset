@@ -1,0 +1,147 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e2a0a50a32061d43ae926d5ce14e601, type: 3}
+  m_Name: SwordData
+  m_EditorClassIdentifier: 
+  swordDatas:
+  - name: "\uD558\uAE09\uC790\uC6A9 \uAC80"
+    swordSprite: {fileID: 21300000, guid: e0738bed65fe12048ab1040ded3ea667, type: 3}
+    atk: 1
+    enforcePercentage: 100
+    enforceAmount: 100
+    sellAmount: 0
+  - name: "\uD53C\uBB3B\uC740 \uD558\uAE09\uC790\uC6A9 \uAC80"
+    swordSprite: {fileID: 21300000, guid: a9d7f67e27669d44a95bda5c0d4c644d, type: 3}
+    atk: 2
+    enforcePercentage: 96
+    enforceAmount: 500
+    sellAmount: 100
+  - name: "\uC624\uB798\uB41C \uC911\uAE09\uC790\uC6A9 \uAC80"
+    swordSprite: {fileID: 21300000, guid: 213bb5a5db61c2444bef9081e39968f9, type: 3}
+    atk: 4
+    enforcePercentage: 92
+    enforceAmount: 5000
+    sellAmount: 500
+  - name: "\uC624\uB798\uB41C \uD53C\uBB4D\uC740 \uAC80"
+    swordSprite: {fileID: 21300000, guid: 94769cb0a6455b54cb3ea07d0a4866ae, type: 3}
+    atk: 8
+    enforcePercentage: 88
+    enforceAmount: 10000
+    sellAmount: 5000
+  - name: "\uD53C\uBB3B\uC740 \uBD80\uB7EC\uC9C4 \uAC80"
+    swordSprite: {fileID: 21300000, guid: 53d96615d5743574f9e5f95e1511ebef, type: 3}
+    atk: 16
+    enforcePercentage: 84
+    enforceAmount: 25000
+    sellAmount: 10000
+  - name: "\uB179\uC6A9 \uAC80"
+    swordSprite: {fileID: 21300000, guid: 77f1fd520eb501f4fa6f2cef38f38e4f, type: 3}
+    atk: 32
+    enforcePercentage: 80
+    enforceAmount: 70000
+    sellAmount: 25000
+  - name: "\uC0C1\uAE09\uC790\uC6A9 \uAC80"
+    swordSprite: {fileID: 21300000, guid: 71aee2aa9ccf63b4c92b4170e78d4c69, type: 3}
+    atk: 64
+    enforcePercentage: 76
+    enforceAmount: 150000
+    sellAmount: 70000
+  - name: "\uBD80\uB7EC\uC9C4 \uC0C1\uAE09\uC790\uC6A9 \uAC80"
+    swordSprite: {fileID: 21300000, guid: fb5c2c220b8595e4fb9c0a66df93dc63, type: 3}
+    atk: 128
+    enforcePercentage: 72
+    enforceAmount: 300000
+    sellAmount: 150000
+  - name: "\uCC9C\uC0AC\uAC00 \uD758\uB9B0 \uAC80"
+    swordSprite: {fileID: 21300000, guid: 7d26be8aea9f8ae45ab01f7c3096d12c, type: 3}
+    atk: 256
+    enforcePercentage: 68
+    enforceAmount: 500000
+    sellAmount: 300000
+  - name: "\uAD6C\uC2AC \uAC80"
+    swordSprite: {fileID: 21300000, guid: aa2e9dad1860a114f802f55a2edab4a8, type: 3}
+    atk: 512
+    enforcePercentage: 64
+    enforceAmount: 700000
+    sellAmount: 500000
+  - name: "\uB300\uC790\uC5F0\uC758 \uAC80"
+    swordSprite: {fileID: 21300000, guid: 393d3cfd0d7232541b318c70b4e9c43f, type: 3}
+    atk: 1024
+    enforcePercentage: 60
+    enforceAmount: 1000000
+    sellAmount: 700000
+  - name: "\uD53C\uBE5B \uAC80"
+    swordSprite: {fileID: 21300000, guid: 5f2e243fd81bb1941a951a84974f76d5, type: 3}
+    atk: 2048
+    enforcePercentage: 56
+    enforceAmount: 1500000
+    sellAmount: 1000000
+  - name: "\uD53C\uBE5B \uC624\uB77C \uAC80"
+    swordSprite: {fileID: 21300000, guid: a2856e7e5abfd124fba175bde80dac1b, type: 3}
+    atk: 4096
+    enforcePercentage: 52
+    enforceAmount: 2000000
+    sellAmount: 1500000
+  - name: "\uB2EC\uC758 \uAC80"
+    swordSprite: {fileID: 21300000, guid: 77e8fff08709e4b49bfe15c2daded2fe, type: 3}
+    atk: 8192
+    enforcePercentage: 48
+    enforceAmount: 2500000
+    sellAmount: 2000000
+  - name: "\uC801\uC6D4 \uAC80"
+    swordSprite: {fileID: 21300000, guid: 38857eb969aae2c4598389da34cebe88, type: 3}
+    atk: 16384
+    enforcePercentage: 44
+    enforceAmount: 3500000
+    sellAmount: 2500000
+  - name: "\uC120\uB300 \uC6A9\uC0AC\uC758 \uAC80"
+    swordSprite: {fileID: 21300000, guid: ac097336814895c4db62180d46cf0a99, type: 3}
+    atk: 32768
+    enforcePercentage: 40
+    enforceAmount: 5000000
+    sellAmount: 3500000
+  - name: "\uBCC4\uC744 \uD488\uC740 \uAC80"
+    swordSprite: {fileID: 21300000, guid: c429c6d624ed40742b70c1a7a217bff0, type: 3}
+    atk: 65536
+    enforcePercentage: 36
+    enforceAmount: 10000000
+    sellAmount: 5000000
+  - name: "\uD558\uB298 \uAC80"
+    swordSprite: {fileID: 21300000, guid: d0df081393d2ee940bd7649629d4c814, type: 3}
+    atk: 131072
+    enforcePercentage: 32
+    enforceAmount: 20000000
+    sellAmount: 10000000
+  - name: "\uC6B0\uC8FC \uAC80"
+    swordSprite: {fileID: 21300000, guid: b94e6486d497880499eef583a0b4a8f0, type: 3}
+    atk: 262144
+    enforcePercentage: 28
+    enforceAmount: 50000000
+    sellAmount: 20000000
+  - name: "\uACE0\uB300 \uC601\uC6C5\uC758 \uAC80 "
+    swordSprite: {fileID: 21300000, guid: f73c253fb9ec1c147acd23d02d4a7111, type: 3}
+    atk: 524288
+    enforcePercentage: 24
+    enforceAmount: 100000000
+    sellAmount: 50000000
+  - name: "\uC804\uC124\uC758 \uAC80"
+    swordSprite: {fileID: 21300000, guid: eeae361281063404b9cd697ffd73b03b, type: 3}
+    atk: 1048576
+    enforcePercentage: 20
+    enforceAmount: 500000000
+    sellAmount: 100000000
+  - name: "\uB0B4 \uC601\uD63C\uC774 \uAE43\uB4E0 \uAC80"
+    swordSprite: {fileID: 21300000, guid: 397683918698b644190a6c930e9bec57, type: 3}
+    atk: 2097152
+    enforcePercentage: 0
+    enforceAmount: 0
+    sellAmount: 1000000000

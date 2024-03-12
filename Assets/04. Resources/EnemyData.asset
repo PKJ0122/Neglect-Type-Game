@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b3c65b015987d4398c4507cf3e0164, type: 3}
+  m_Name: EnemyData
+  m_EditorClassIdentifier: 
+  enemyDatas:
+  - enemyId: 0
+    enemySprite: {fileID: 21300000, guid: 1757210c5f24a5b4084b469508a70c08, type: 3}
+    enemyHp: 10
+    compensationGold: 100
+  - enemyId: 1
+    enemySprite: {fileID: 21300000, guid: 3dc792a5fe127b444a85e0ad4ffe782d, type: 3}
+    enemyHp: 300
+    compensationGold: 300
+  - enemyId: 2
+    enemySprite: {fileID: 21300000, guid: ab8f526416fc3da469bc3850a4e1f3b9, type: 3}
+    enemyHp: 1000
+    compensationGold: 500
+  - enemyId: 3
+    enemySprite: {fileID: 21300000, guid: 862e2282d89ac824381cf165353d3e62, type: 3}
+    enemyHp: 10000
+    compensationGold: 1000
+  - enemyId: 4
+    enemySprite: {fileID: 21300000, guid: 0b6bece9c6a5ec94e9a4756396df090b, type: 3}
+    enemyHp: 200000
+    compensationGold: 2000
+  - enemyId: 5
+    enemySprite: {fileID: 21300000, guid: 9be9c2ad51a320943a1a9e16e383956d, type: 3}
+    enemyHp: 1000000
+    compensationGold: 3000
+  - enemyId: 6
+    enemySprite: {fileID: 21300000, guid: 76f8f9b216f7e3c4c94de46886c39df0, type: 3}
+    enemyHp: 3000000
+    compensationGold: 4000
+  - enemyId: 7
+    enemySprite: {fileID: 21300000, guid: 171bc5f4d2d0f4e43b457aef0fadc804, type: 3}
+    enemyHp: 5000000
+    compensationGold: 5000
+  - enemyId: 8
+    enemySprite: {fileID: 21300000, guid: 497c1cf1a502bb74387e8dffcfb1dab5, type: 3}
+    enemyHp: 10000000
+    compensationGold: 10000
