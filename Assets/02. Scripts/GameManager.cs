@@ -39,4 +39,17 @@ public class GameManager : MonoBehaviour
         string inventoryDataJson = File.ReadAllText(inventoryDataFilePath);
         inventoryData = JsonUtility.FromJson<InventoryData>(inventoryDataJson);
     }
+
+    void JsonSerialization()
+    {
+        string playerDataJson = JsonUtility.ToJson(playerData);
+        File.WriteAllText(playerDataFilePath, playerDataJson);
+        string inventoryDataJson = JsonUtility.ToJson(inventoryData);
+        File.WriteAllText(inventoryDataFilePath, inventoryDataJson);
+    }
+
+    void OnApplicationQuit()
+    {
+        JsonSerialization();
+    }
 }

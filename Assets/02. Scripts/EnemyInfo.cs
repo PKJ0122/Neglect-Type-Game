@@ -8,12 +8,14 @@ public class EnemyInfo : MonoBehaviour
     public Enemy spawnEnemy;
     public EnemySpawner enemySpawner;
 
+    public Image enemyImage;
     public Slider enemyHpSlider;
 
     int enemyHp;
 
     void OnEnable()
     {
+        enemyImage.sprite = spawnEnemy.enemySprite;
         enemyHp = spawnEnemy.enemyHp;
         enemyHpSlider.minValue = 0;
         enemyHpSlider.maxValue = enemyHp;
