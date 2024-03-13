@@ -23,12 +23,20 @@ public class PlayerInfo : MonoBehaviour
 
         SetPlayerAtk();
         SetPlayerGold();
+        animator.SetFloat("isAtkSpeed", gameManager.playerData.playerAtkSpeedLevel+1);
     }
     public void SetPlayerAtk()
     {
-        playerAttText.text = $"{string.Format("{0:#,###}", mountingSword.atk)}     ";
+        mountingSword = gameManager.swordData.swordDatas[gameManager.inventoryData.inventorys[gameManager.inventoryData.mountingSwordIndex]];
+        playerAttText.text = $"{string.Format("{0:#,###}", PlayerAtkCalculate())}     ";
         playerWeaponImage.sprite = mountingSword.swordSprite;
     }
+
+    public int PlayerAtkCalculate()
+    {
+        return mountingSword.atk * (1 + gameManager.playerData.playerAtkLevel);
+    }
+
     public void SetPlayerGold()
     {
         if(gameManager.playerData.gold == 0)
@@ -46,6 +54,6 @@ public class PlayerInfo : MonoBehaviour
     }
     public void EnemyAtk()
     {
-        enemyInfo.GetDamage(mountingSword.atk);
+        enemyInfo.GetDamage(PlayerAtkCalculate());
     }
 }

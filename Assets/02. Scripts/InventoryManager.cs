@@ -161,7 +161,8 @@ public class InventoryManager : MonoBehaviour
 
     void SwordSell()
     {
-        GameManager.instance.playerData.gold += swordData.swordDatas[selectSlotNumber].sellAmount;
+        GameManager.instance.playerData.gold += swordData.swordDatas
+            [GameManager.instance.inventoryData.inventorys[selectSlotNumber]].sellAmount;
         GameManager.instance.inventoryData.inventorys[selectSlotNumber] = -1;
         inventorySlots[selectSlotNumber].transform.GetChild(0).gameObject.SetActive(false);
         InventorySetting();

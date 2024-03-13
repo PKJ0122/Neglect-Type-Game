@@ -11,9 +11,17 @@ public class EnforceManager : MonoBehaviour
 {
     public SwordData swordData;
 
+    public InventoryManager inventoryManager;
+
     public GameObject enforcePanel;
     public GameObject crystalCatchPanel;
+    public Image crystalCatchPanelSwordImage;
     public Slider crystalCatch;
+    public GameObject enforceResultPanel;
+    public GameObject enforceSuccessText;
+    public GameObject enforceFailText;
+    public Image enforceResultPanelSwordImage;
+    public Text enforceResultPanelSwordAmountText;
 
     float minValue = 0.7f;
     float maxValue = 9.3f;
@@ -24,10 +32,12 @@ public class EnforceManager : MonoBehaviour
 
     int slotNumber = -1;
     int inventorySword = -1;
-    int enforcePercentage;
+    int enforcePercentage = -1;
 
     public Image nowSwordImage;
     public Image nextSwordImage;
+    public Text nowSwordAmountText;
+    public Text nextSwordAmountText;
     public Button enforceButton;
     public Button cancellationButton;
     public Button stopButton;
@@ -82,6 +92,8 @@ public class EnforceManager : MonoBehaviour
         inventorySword = GameManager.instance.inventoryData.inventorys[slotNumber];
         nowSwordImage.sprite = swordData.swordDatas[inventorySword].swordSprite;
         nextSwordImage.sprite = swordData.swordDatas[inventorySword+1].swordSprite;
+        nowSwordAmountText.text = $"+{inventorySword}";
+        nextSwordAmountText.text = $"+{inventorySword+1}";
     }
 
     void EnforceButton()
@@ -90,6 +102,7 @@ public class EnforceManager : MonoBehaviour
         cancellationButton.interactable = false;
         crystalCatchPanel.SetActive(true);
         crystalCatchIng = true;
+        crystalCatchPanelSwordImage.sprite = swordData.swordDatas[GameManager.instance.inventoryData.inventorys[slotNumber]].swordSprite;
     }
 
     void CrystalCatchStop()
@@ -98,26 +111,39 @@ public class EnforceManager : MonoBehaviour
         float StopValue = crystalCatch.value;
         crystalCatchIng = false;
 
-        int enforcePercentage = swordData.swordDatas[inventorySword].enforcePercentage;
+        enforcePercentage = swordData.swordDatas[inventorySword].enforcePercentage;
         if (4.5f <= StopValue && StopValue <= 5.5f)
         {
             enforcePercentage++;
         }
 
-        Invoke("EenforceCalculate", 2f);
+        Invoke("EenforceCalculate", 1f);
     }
     
     void EenforceCalculate()
     {
+        GameManager.instance.playerData.gold -= swordData.swordDatas[inventorySword].enforceAmount;
+
         int enforceAmount = Random.Range(1, 101);
+
+        enforceResultPanel.SetActive(true);
 
         if (enforceAmount <= enforcePercentage)
         {
             GameManager.instance.inventoryData.inventorys[slotNumber]++;
+            enforceSuccessText.SetActive(true);
         }
         else
         {
             GameManager.instance.inventoryData.inventorys[slotNumber]--;
+            enforceFailText.SetActive(true);
         }
+
+        enforceResultPanelSwordImage.sprite = swordData.swordDatas[GameManager.instance.inventoryData.inventorys[slotNumber]].swordSprite;
+        enforceResultPanelSwordAmountText.text = $"+{GameManager.instance.inventoryData.inventorys[slotNumber]}";
+        Enforce(slotNumber);
+        inventoryManager.InventorySetting();
+        inventoryManager.playerInfo.SetPlayerAtk();
+        inventoryManager.playerInfo.SetPlayerGold();
     }
 }
