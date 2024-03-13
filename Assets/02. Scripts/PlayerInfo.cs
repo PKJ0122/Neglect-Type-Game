@@ -19,12 +19,12 @@ public class PlayerInfo : MonoBehaviour
     void Awake()
     {
         gameManager = GameManager.instance;
-        mountingSword = gameManager.swordData.swordDatas[gameManager.inventoryData.mountingSwordIndex];
+        mountingSword = gameManager.swordData.swordDatas[gameManager.inventoryData.inventorys[gameManager.inventoryData.mountingSwordIndex]];
 
         SetPlayerAtk();
         SetPlayerGold();
     }
-    void SetPlayerAtk()
+    public void SetPlayerAtk()
     {
         playerAttText.text = $"{string.Format("{0:#,###}", mountingSword.atk)}     ";
         playerWeaponImage.sprite = mountingSword.swordSprite;
