@@ -11,8 +11,6 @@ public class EnforceManager : MonoBehaviour
 {
     public SwordData swordData;
 
-    public InventoryManager inventoryManager;
-
     public GameObject enforcePanel;
     public GameObject crystalCatchPanel;
     public Image crystalCatchPanelSwordImage;
@@ -142,8 +140,7 @@ public class EnforceManager : MonoBehaviour
         enforceResultPanelSwordImage.sprite = swordData.swordDatas[GameManager.instance.inventoryData.inventorys[slotNumber]].swordSprite;
         enforceResultPanelSwordAmountText.text = $"+{GameManager.instance.inventoryData.inventorys[slotNumber]}";
         Enforce(slotNumber);
-        inventoryManager.InventorySetting();
-        inventoryManager.playerInfo.SetPlayerAtk();
-        inventoryManager.playerInfo.SetPlayerGold();
+        InventoryManager.inventorySet.Invoke();
+        PlayerInfo.playerSetInfo.Invoke();
     }
 }

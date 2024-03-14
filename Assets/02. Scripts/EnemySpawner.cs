@@ -19,17 +19,18 @@ public class EnemySpawner : MonoBehaviour
     {
         Invoke("SpawnEnemy", 0.3f);
     }
+
     public void SpawnEnemy()
     {
         enemyInfo.gameObject.SetActive(true);
-        playerInfo.PlayerAtkModeChange();
+        PlayerInfo.playerSetAtkMode.Invoke();
     }
+
     public void DieEnemy()
     {
-        playerInfo.PlayerAtkModeChange();
         enemyInfo.gameObject.SetActive(false);
         GameManager.instance.playerData.gold += enemyInfo.spawnEnemy.compensationGold;
-        playerInfo.SetPlayerGold();
+        PlayerInfo.playerSetInfo.Invoke();
         Invoke("SpawnEnemy", 0.3f);
     }
 

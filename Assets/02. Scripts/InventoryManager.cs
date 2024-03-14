@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -32,9 +33,12 @@ public class InventoryManager : MonoBehaviour
 
     public GameObject enforceManager;
 
+    public static Action inventorySet;
+
     void Start()
     {
-        InventorySetting();
+        inventorySet += InventorySetting;
+        inventorySet.Invoke();
 
         swordPanelEnforceButton.onClick.AddListener(SwordEnforce);
         swordPanelSellButton.onClick.AddListener(SwordSell);
@@ -120,7 +124,7 @@ public class InventoryManager : MonoBehaviour
         if (pointOnSwordNumber == -1)
         {
             selectPickUpSwordNumber = -1;
-            InventorySetting();
+            inventorySet.Invoke();
             return;
         }
 
@@ -140,7 +144,7 @@ public class InventoryManager : MonoBehaviour
 
         selectPickUpSwordNumber = -1;
         swordInfoPanel.SetActive(false);
-        InventorySetting();
+        inventorySet.Invoke();
     }
 
     public void PointOn(int SlotNumber)
@@ -165,8 +169,8 @@ public class InventoryManager : MonoBehaviour
             [GameManager.instance.inventoryData.inventorys[selectSlotNumber]].sellAmount;
         GameManager.instance.inventoryData.inventorys[selectSlotNumber] = -1;
         inventorySlots[selectSlotNumber].transform.GetChild(0).gameObject.SetActive(false);
-        InventorySetting();
-        playerInfo.SetPlayerGold();
+        inventorySet.Invoke();
+        PlayerInfo.playerSetInfo.Invoke();
     }
 
     void SwordMounting()
@@ -174,7 +178,12 @@ public class InventoryManager : MonoBehaviour
         inventorySlots[GameManager.instance.inventoryData.mountingSwordIndex].transform.GetChild(1).gameObject.SetActive(false);
         playerInfo.mountingSword = swordData.swordDatas[GameManager.instance.inventoryData.inventorys[selectSlotNumber]];
         GameManager.instance.inventoryData.mountingSwordIndex = selectSlotNumber;
-        InventorySetting();
-        playerInfo.SetPlayerAtk();
+        inventorySet.Invoke();
+        PlayerInfo.playerSetInfo.Invoke();
+    }
+
+    private void OnDestroy()
+    {
+        inventorySet -= InventorySetting;
     }
 }

@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -16,15 +17,22 @@ public class PlayerInfo : MonoBehaviour
 
     public EnemyInfo enemyInfo;
 
+    public static Action playerSetInfo;
+    public static Action playerSetAtkMode;
+
     void Awake()
     {
         gameManager = GameManager.instance;
         mountingSword = gameManager.swordData.swordDatas[gameManager.inventoryData.inventorys[gameManager.inventoryData.mountingSwordIndex]];
 
-        SetPlayerAtk();
-        SetPlayerGold();
-        animator.SetFloat("isAtkSpeed", gameManager.playerData.playerAtkSpeedLevel+1);
+        playerSetInfo += SetPlayerAtk;
+        playerSetInfo += SetPlayerGold;
+
+        playerSetAtkMode += PlayerAtkModeChange;
+
+        playerSetInfo.Invoke();
     }
+
     public void SetPlayerAtk()
     {
         mountingSword = gameManager.swordData.swordDatas[gameManager.inventoryData.inventorys[gameManager.inventoryData.mountingSwordIndex]];
@@ -52,8 +60,16 @@ public class PlayerInfo : MonoBehaviour
     {
         animator.SetBool("isAtk", !animator.GetBool("isAtk"));
     }
+
     public void EnemyAtk()
     {
         enemyInfo.GetDamage(PlayerAtkCalculate());
+    }
+
+    private void OnDestroy()
+    {
+        playerSetInfo -= SetPlayerAtk;
+        playerSetInfo -= SetPlayerGold;
+        playerSetAtkMode -= PlayerAtkModeChange;
     }
 }

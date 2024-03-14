@@ -29,7 +29,9 @@ public class EnemyInfo : MonoBehaviour
 
         if(enemyHp <= 0)
         {
+            PlayerInfo.playerSetAtkMode.Invoke();
             enemySpawner.DieEnemy();
+            gameObject.SetActive(false);
         }
     }
 }
