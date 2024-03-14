@@ -26,5 +26,6 @@ public class EncyclopediaButton : MonoBehaviour
         encyclopediaManager.encyclopediaEnemyNumberText.text = $"{(enemy.enemyId)+1}번째 몬스터";
         encyclopediaManager.encyclopediaEnemyHpText.text = $"{enemy.enemyHp}";
         encyclopediaManager.encyclopediaEnemyCompensationGoldText.text = $"{enemy.compensationGold}";
+        ButtonManager.buttonDownSfx.Invoke();
     }
 }

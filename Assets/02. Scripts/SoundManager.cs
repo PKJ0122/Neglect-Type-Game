@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.Audio;
 
@@ -5,10 +6,18 @@ public class SoundManager : MonoBehaviour
 {
     public static SoundManager instance;
 
-    public AudioSource audioSource;
+    public AudioSource bgmAudioSource;
+    public AudioSource sfxAudioSource;
+
+    public AudioClip[] bgmClips;
+    public AudioClip[] sfxClips;
+
     public AudioMixer audioMixer;
 
-    private void Awake()
+    public static Action soundSet;
+    public static Action<int> sfxPlay;
+
+    void Awake()
     {
         if (instance != null && instance != this)
         {
@@ -17,5 +26,24 @@ public class SoundManager : MonoBehaviour
         }
         instance = this;
         DontDestroyOnLoad(gameObject);
+
+        sfxPlay += SfxPlay;
+    }
+
+    void Start()
+    {
+        soundSet += SoundSet;
+        soundSet.Invoke();
+    }
+
+    void SoundSet()
+    {
+        audioMixer.SetFloat("BGM", -80 + (GameManager.instance.playerData.bgmLevel * 20));
+        audioMixer.SetFloat("SFX", -80 + (GameManager.instance.playerData.sfxLevel * 20));
+    }
+
+    void SfxPlay(int index)
+    {
+        sfxAudioSource.PlayOneShot(sfxClips[index]);
     }
 }

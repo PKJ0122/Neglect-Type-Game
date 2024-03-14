@@ -67,6 +67,7 @@ public class EnforceManager : MonoBehaviour
             {
                 crystalCatch.value = maxValue;
                 moveMode = moveMode.goLeft;
+                SoundManager.sfxPlay.Invoke(6);
             }
         }
         else
@@ -76,6 +77,7 @@ public class EnforceManager : MonoBehaviour
             {
                 crystalCatch.value = minValue;
                 moveMode = moveMode.goRight;
+                SoundManager.sfxPlay.Invoke(6);
             }
         }
 
@@ -100,6 +102,7 @@ public class EnforceManager : MonoBehaviour
         cancellationButton.interactable = false;
         crystalCatchPanel.SetActive(true);
         crystalCatchIng = true;
+        SoundManager.sfxPlay.Invoke(6);
         crystalCatchPanelSwordImage.sprite = swordData.swordDatas[GameManager.instance.inventoryData.inventorys[slotNumber]].swordSprite;
     }
 
@@ -115,7 +118,8 @@ public class EnforceManager : MonoBehaviour
             enforcePercentage++;
         }
 
-        Invoke("EenforceCalculate", 1f);
+        SoundManager.sfxPlay.Invoke(5);
+        Invoke("EenforceCalculate", 1.5f);
     }
     
     void EenforceCalculate()
@@ -130,11 +134,13 @@ public class EnforceManager : MonoBehaviour
         {
             GameManager.instance.inventoryData.inventorys[slotNumber]++;
             enforceSuccessText.SetActive(true);
+            SoundManager.sfxPlay.Invoke(3);
         }
         else
         {
             GameManager.instance.inventoryData.inventorys[slotNumber]--;
             enforceFailText.SetActive(true);
+            SoundManager.sfxPlay.Invoke(4);
         }
 
         enforceResultPanelSwordImage.sprite = swordData.swordDatas[GameManager.instance.inventoryData.inventorys[slotNumber]].swordSprite;

@@ -64,6 +64,7 @@ public class PlayerInfo : MonoBehaviour
     public void EnemyAtk()
     {
         enemyInfo.GetDamage(PlayerAtkCalculate());
+        SoundManager.sfxPlay.Invoke(0);
     }
 
     private void OnDestroy()

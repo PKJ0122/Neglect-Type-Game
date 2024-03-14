@@ -32,6 +32,7 @@ public class EnemyInfo : MonoBehaviour
             PlayerInfo.playerSetAtkMode.Invoke();
             enemySpawner.DieEnemy();
             gameObject.SetActive(false);
+            SoundManager.sfxPlay.Invoke(1);
         }
     }
 }

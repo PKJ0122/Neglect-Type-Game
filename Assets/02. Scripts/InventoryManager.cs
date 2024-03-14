@@ -69,6 +69,7 @@ public class InventoryManager : MonoBehaviour
         if (selectSlotSword == -1)
             return;
 
+        ButtonManager.buttonDownSfx.Invoke();
         selectSlotNumber = SlotNumber;
 
         swordInfoPanel.SetActive(true);
@@ -141,10 +142,10 @@ public class InventoryManager : MonoBehaviour
             inventorySlots[pointOnSwordNumber].transform.GetChild(1).gameObject.SetActive(false);
         }
 
-
         selectPickUpSwordNumber = -1;
         swordInfoPanel.SetActive(false);
         inventorySet.Invoke();
+        ButtonManager.buttonDownSfx.Invoke();
     }
 
     public void PointOn(int SlotNumber)
