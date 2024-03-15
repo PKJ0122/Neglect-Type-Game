@@ -18,6 +18,6 @@ public class StartAnimation : MonoBehaviour
             return;
 
         animators[discrimination++].SetTrigger("On");
-        Invoke("StartAnimationPlay", 0.3f);
+        Invoke("StartAnimationPlay", 0.2f);
     }
 }

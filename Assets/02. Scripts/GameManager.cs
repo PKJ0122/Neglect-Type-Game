@@ -9,10 +9,10 @@ public class GameManager : MonoBehaviour
     public SwordData swordData;
 
     public PlayerData playerData;
-    string playerDataFilePath = "Assets/04. Resources/Json/PlayerData.json";
+    string playerDataFilePath = "PlayerData.json";
 
     public InventoryData inventoryData;
-    string inventoryDataFilePath = "Assets/04. Resources/Json/InventoryData.json";
+    string inventoryDataFilePath = "InventoryData.json";
 
     void Awake()
     {
@@ -34,6 +34,9 @@ public class GameManager : MonoBehaviour
 
     void JsonParsing()
     {
+        playerDataFilePath = Path.Combine(Application.streamingAssetsPath, playerDataFilePath);
+        inventoryDataFilePath = Path.Combine(Application.streamingAssetsPath, inventoryDataFilePath);
+
         string playerDataJson = File.ReadAllText(playerDataFilePath);
         playerData = JsonUtility.FromJson<PlayerData>(playerDataJson);
         string inventoryDataJson = File.ReadAllText(inventoryDataFilePath);

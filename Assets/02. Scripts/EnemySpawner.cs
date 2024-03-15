@@ -10,6 +10,9 @@ public class EnemySpawner : MonoBehaviour
     public EnemyInfo enemyInfo;
     public EnemyData enemyData;
 
+    public GameObject[] goldSkin;
+    int golddiscrimination = 0;
+
     void Awake()
     {
         enemyInfo.spawnEnemy = enemyData.enemyDatas[GameManager.instance.playerData.lastSpawnMosterId];
@@ -29,9 +32,17 @@ public class EnemySpawner : MonoBehaviour
     public void DieEnemy()
     {
         enemyInfo.gameObject.SetActive(false);
-        GameManager.instance.playerData.gold += enemyInfo.spawnEnemy.compensationGold;
+        int gold = enemyInfo.spawnEnemy.compensationGold;
+        GameManager.instance.playerData.gold += gold;
         PlayerInfo.playerSetInfo.Invoke();
         Invoke("SpawnEnemy", 0.3f);
+
+        goldSkin[golddiscrimination].SetActive(true);
+        goldSkin[golddiscrimination].GetComponent<DamageText>().SetDamageText(gold,true);
+        golddiscrimination++;
+
+        if(golddiscrimination == goldSkin.Length)
+            golddiscrimination = 0;
     }
 
     public void ChangeEnemy(Enemy enemy)

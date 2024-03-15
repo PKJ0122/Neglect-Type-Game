@@ -20,6 +20,9 @@ public class PlayerInfo : MonoBehaviour
     public static Action playerSetInfo;
     public static Action playerSetAtkMode;
 
+    public GameObject[] damageSkin;
+    int damagediscrimination = 0;
+
     void Awake()
     {
         gameManager = GameManager.instance;
@@ -65,6 +68,13 @@ public class PlayerInfo : MonoBehaviour
     {
         enemyInfo.GetDamage(PlayerAtkCalculate());
         SoundManager.sfxPlay.Invoke(0);
+
+        damageSkin[damagediscrimination].SetActive(true);
+        damageSkin[damagediscrimination].GetComponent<DamageText>().SetDamageText(PlayerAtkCalculate());
+        damagediscrimination++;
+
+        if (damagediscrimination == damageSkin.Length)
+            damagediscrimination = 0;
     }
 
     private void OnDestroy()
