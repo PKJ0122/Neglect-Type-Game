@@ -42,8 +42,14 @@ public class SoundManager : MonoBehaviour
         audioMixer.SetFloat("SFX", -80 + (GameManager.instance.playerData.sfxLevel * 20));
     }
 
-    void SfxPlay(int index)
+    public void SfxPlay(int index)
     {
+        if(index == -1)
+        {
+            bgmAudioSource.Play();
+            return;
+        }
+
         sfxAudioSource.PlayOneShot(sfxClips[index]);
     }
 }

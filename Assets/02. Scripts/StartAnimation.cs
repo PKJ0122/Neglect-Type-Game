@@ -17,6 +17,7 @@ public class StartAnimation : MonoBehaviour
         if (animators.Length == discrimination)
             return;
 
+        SoundManager.sfxPlay.Invoke(7);
         animators[discrimination++].SetTrigger("On");
         Invoke("StartAnimationPlay", 0.2f);
     }

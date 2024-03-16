@@ -30,6 +30,7 @@ public class GameManager : MonoBehaviour
     public void MoveScenes()
     {
         SceneManager.LoadScene("Game Scenes");
+        SoundManager.sfxPlay.Invoke(-1);
     }
 
     void JsonParsing()
