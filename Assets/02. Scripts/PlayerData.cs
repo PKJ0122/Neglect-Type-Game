@@ -8,4 +8,7 @@ public class PlayerData
     public int playerAtkLevel;
     public float bgmLevel;
     public float sfxLevel;
+
+    public int potionQuantity;
+    public float potionRemainingTime;
 }

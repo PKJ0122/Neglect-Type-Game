@@ -43,6 +43,12 @@ public class EnemySpawner : MonoBehaviour
 
         if(golddiscrimination == goldSkin.Length)
             golddiscrimination = 0;
+
+        if(Random.Range(1,1001) == 1)
+        {
+            GameManager.instance.playerData.potionQuantity++;
+            AtkPotion.potionRemainingAmountTextSet.Invoke();
+        }
     }
 
     public void ChangeEnemy(Enemy enemy)

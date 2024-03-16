@@ -23,6 +23,9 @@ public class PlayerInfo : MonoBehaviour
     public GameObject[] damageSkin;
     int damagediscrimination = 0;
 
+    public static Action<bool> atkPotion;
+    bool atkPotionState;
+
     void Awake()
     {
         gameManager = GameManager.instance;
@@ -32,6 +35,11 @@ public class PlayerInfo : MonoBehaviour
         playerSetInfo += SetPlayerGold;
 
         playerSetAtkMode += PlayerAtkModeChange;
+
+        atkPotion += AtkPotion;
+
+        if (GameManager.instance.playerData.potionRemainingTime != 0)
+            atkPotionState = true;
 
         playerSetInfo.Invoke();
     }
@@ -45,6 +53,9 @@ public class PlayerInfo : MonoBehaviour
 
     public int PlayerAtkCalculate()
     {
+        if(atkPotionState)
+            return mountingSword.atk * (1 + gameManager.playerData.playerAtkLevel) * 5;
+
         return mountingSword.atk * (1 + gameManager.playerData.playerAtkLevel);
     }
 
@@ -77,10 +88,17 @@ public class PlayerInfo : MonoBehaviour
             damagediscrimination = 0;
     }
 
+    void AtkPotion(bool eat)
+    {
+        atkPotionState = eat;
+        playerSetInfo.Invoke();
+    }
+
     private void OnDestroy()
     {
         playerSetInfo -= SetPlayerAtk;
         playerSetInfo -= SetPlayerGold;
         playerSetAtkMode -= PlayerAtkModeChange;
+        atkPotion -= AtkPotion;
     }
 }
