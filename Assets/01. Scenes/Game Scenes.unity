@@ -249,7 +249,7 @@ GameObject:
   - component: {fileID: 24729032}
   - component: {fileID: 24729031}
   m_Layer: 5
-  m_Name: "\uC7A5\uCC29\uC911\uC774\uBBF8\uC9C0"
+  m_Name: Mounting
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -325,7 +325,7 @@ GameObject:
   - component: {fileID: 38104383}
   - component: {fileID: 38104382}
   m_Layer: 5
-  m_Name: "\uAC80 \uC774\uBBF8\uC9C0"
+  m_Name: WeaponImage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -401,7 +401,7 @@ GameObject:
   - component: {fileID: 39230528}
   - component: {fileID: 39230527}
   m_Layer: 5
-  m_Name: "\uAC15\uD654 \uC131\uACF5 \uBB38\uAD6C"
+  m_Name: Success
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -495,7 +495,7 @@ GameObject:
   - component: {fileID: 54536342}
   - component: {fileID: 54536341}
   m_Layer: 5
-  m_Name: "\uD310\uB9E4\uC815\uBCF4 \uC774\uBBF8\uC9C0"
+  m_Name: SellInfo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -571,7 +571,7 @@ GameObject:
   - component: {fileID: 61331829}
   - component: {fileID: 61331828}
   m_Layer: 5
-  m_Name: "\uAC15\uD654 \uC2E4\uD328 \uBB38\uAD6C"
+  m_Name: Fail
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -701,7 +701,7 @@ GameObject:
   - component: {fileID: 77705797}
   - component: {fileID: 77705796}
   m_Layer: 5
-  m_Name: "\uAC80 \uC774\uBBF8\uC9C0"
+  m_Name: EnforceWeaponImage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -871,7 +871,7 @@ GameObject:
   - component: {fileID: 81874263}
   - component: {fileID: 81874262}
   m_Layer: 5
-  m_Name: "\uD3EC\uC158\uCFE8\uD0C0\uC784"
+  m_Name: PotionCoolTime
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -946,7 +946,7 @@ GameObject:
   - component: {fileID: 84871992}
   - component: {fileID: 84871991}
   m_Layer: 5
-  m_Name: "\uAC15\uD654 \uD328\uB110"
+  m_Name: Enforce
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1025,7 +1025,7 @@ GameObject:
   - component: {fileID: 85824529}
   - component: {fileID: 85824528}
   m_Layer: 5
-  m_Name: "\uD50C\uB808\uC774\uC5B4 \uAC15\uD654 \uC0C1\uC810"
+  m_Name: PlayerEnforce
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1253,7 +1253,7 @@ GameObject:
   - component: {fileID: 116761275}
   - component: {fileID: 116761274}
   m_Layer: 5
-  m_Name: "\uD328\uB110"
+  m_Name: Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1329,7 +1329,7 @@ GameObject:
   - component: {fileID: 119378164}
   - component: {fileID: 119378163}
   m_Layer: 5
-  m_Name: "\uACF5\uACA9\uB825\uC218\uCE58"
+  m_Name: AtkAmount
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1424,7 +1424,7 @@ GameObject:
   - component: {fileID: 121160157}
   - component: {fileID: 121160156}
   m_Layer: 5
-  m_Name: "\uC124\uBA85"
+  m_Name: PotionDescription
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1519,7 +1519,7 @@ GameObject:
   - component: {fileID: 121510735}
   - component: {fileID: 121510734}
   m_Layer: 5
-  m_Name: "\uAC80 \uC774\uBBF8\uC9C0"
+  m_Name: WeaponImage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1593,7 +1593,7 @@ GameObject:
   - component: {fileID: 125057350}
   - component: {fileID: 125057351}
   m_Layer: 5
-  m_Name: "\uB2E4\uC774\uC544\uD3EC\uC2A4"
+  m_Name: CrystalForce
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1681,7 +1681,7 @@ GameObject:
   m_Component:
   - component: {fileID: 127837485}
   m_Layer: 5
-  m_Name: "\uBC84\uD2BC \uBAA8\uC74C"
+  m_Name: Buttons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1849,7 +1849,7 @@ GameObject:
   - component: {fileID: 141439695}
   - component: {fileID: 141439694}
   m_Layer: 5
-  m_Name: "\uD310\uB9E4 \uACE8\uB4DC \uC218\uCE58"
+  m_Name: SellGoldAmount
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1974,7 +1974,7 @@ GameObject:
   - component: {fileID: 152271917}
   - component: {fileID: 152271916}
   m_Layer: 5
-  m_Name: "\uAC80 \uC774\uBBF8\uC9C0 \uBC30\uACBD"
+  m_Name: WeaponImage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2050,7 +2050,7 @@ GameObject:
   - component: {fileID: 153950082}
   - component: {fileID: 153950081}
   m_Layer: 5
-  m_Name: "6\uB2E8\uACC4 \uAC80"
+  m_Name: Weapon 6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2249,7 +2249,7 @@ GameObject:
   - component: {fileID: 160207282}
   - component: {fileID: 160207281}
   m_Layer: 5
-  m_Name: "\uAC80 \uC0C1\uC810"
+  m_Name: WeaponShop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2457,7 +2457,7 @@ GameObject:
   - component: {fileID: 170121718}
   - component: {fileID: 170121717}
   m_Layer: 5
-  m_Name: "\uBB34\uAE30 \uACF5\uACA9\uB825"
+  m_Name: WeaponAtk
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2535,7 +2535,7 @@ GameObject:
   - component: {fileID: 179650614}
   - component: {fileID: 179650613}
   m_Layer: 5
-  m_Name: "\uC18C\uB9AC \uC124\uC815"
+  m_Name: SoundSet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2705,7 +2705,7 @@ GameObject:
   - component: {fileID: 205041043}
   - component: {fileID: 205041042}
   m_Layer: 5
-  m_Name: "X\uBC84\uD2BC"
+  m_Name: XButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2848,7 +2848,7 @@ GameObject:
   - component: {fileID: 219416859}
   - component: {fileID: 219416858}
   m_Layer: 5
-  m_Name: "\uBAAC\uC2A4\uD130 \uC815\uBCF4\uCC3D"
+  m_Name: EnemyInfo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2927,7 +2927,7 @@ GameObject:
   - component: {fileID: 219974966}
   - component: {fileID: 219974967}
   m_Layer: 5
-  m_Name: "SFX\uC2AC\uB77C\uC774\uB354"
+  m_Name: SFXSlider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3020,7 +3020,7 @@ GameObject:
   - component: {fileID: 222888245}
   - component: {fileID: 222888246}
   m_Layer: 5
-  m_Name: "\uC778\uBCA4\uD1A0\uB9AC 7"
+  m_Name: Inventory 7
   m_TagString: Slot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3307,7 +3307,7 @@ GameObject:
   m_Component:
   - component: {fileID: 240534458}
   m_Layer: 5
-  m_Name: "\uACE8\uB4DC \uC624\uBE0C\uC81D\uD2B8"
+  m_Name: Gold
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3345,7 +3345,7 @@ GameObject:
   m_Component:
   - component: {fileID: 244460508}
   m_Layer: 5
-  m_Name: "\uC7A5\uBE44\uC815\uBCF4 4"
+  m_Name: WeaponInfo 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3384,7 +3384,7 @@ GameObject:
   - component: {fileID: 247683486}
   - component: {fileID: 247683485}
   m_Layer: 5
-  m_Name: "\uC7A5\uCC29\uC911\uC774\uBBF8\uC9C0"
+  m_Name: E
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3461,7 +3461,7 @@ GameObject:
   - component: {fileID: 266306140}
   - component: {fileID: 266306139}
   m_Layer: 5
-  m_Name: "\uD3EC\uC158 \uC794\uC5EC\uC2DC\uAC04"
+  m_Name: PotionTime
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3555,7 +3555,7 @@ GameObject:
   - component: {fileID: 268932586}
   - component: {fileID: 268932585}
   m_Layer: 5
-  m_Name: "\uC7A5\uCC29\uC911\uC774\uBBF8\uC9C0"
+  m_Name: Mounting
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3631,7 +3631,7 @@ GameObject:
   - component: {fileID: 271997478}
   - component: {fileID: 271997477}
   m_Layer: 5
-  m_Name: "\uAC15\uD654\uBE44\uC6A9\uC774\uBBF8\uC9C0"
+  m_Name: Enforce
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3781,7 +3781,7 @@ GameObject:
   - component: {fileID: 305772314}
   - component: {fileID: 305772313}
   m_Layer: 5
-  m_Name: "\uC7A5\uCC29\uC911\uC774\uBBF8\uC9C0"
+  m_Name: Mounting
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4027,7 +4027,7 @@ GameObject:
   - component: {fileID: 322180745}
   - component: {fileID: 322180744}
   m_Layer: 5
-  m_Name: "\uC778\uBCA4\uD1A0\uB9AC \uCC3D"
+  m_Name: Inventory
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4208,7 +4208,7 @@ GameObject:
   - component: {fileID: 342939166}
   - component: {fileID: 342939165}
   m_Layer: 5
-  m_Name: "\uAC15\uD654\uBE44\uC6A9 \uACE8\uB4DC \uC218\uCE58"
+  m_Name: EnforcePriceGold
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4303,7 +4303,7 @@ GameObject:
   - component: {fileID: 351564623}
   - component: {fileID: 351564622}
   m_Layer: 5
-  m_Name: "\uACF5\uACA9\uB825 \uAC15\uD654 \uBE44\uC57D"
+  m_Name: PotionNameText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4397,7 +4397,7 @@ GameObject:
   - component: {fileID: 352029746}
   - component: {fileID: 352029745}
   m_Layer: 5
-  m_Name: "\uAC80 \uC774\uBBF8\uC9C0"
+  m_Name: WeaponImage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4474,7 +4474,7 @@ GameObject:
   - component: {fileID: 354568052}
   - component: {fileID: 354568051}
   m_Layer: 5
-  m_Name: "\uD655\uC778\uBC84\uD2BC"
+  m_Name: OkButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4666,7 +4666,7 @@ GameObject:
   - component: {fileID: 363230779}
   - component: {fileID: 363230778}
   m_Layer: 5
-  m_Name: "\uD328\uB110"
+  m_Name: Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4743,7 +4743,7 @@ GameObject:
   - component: {fileID: 364533813}
   - component: {fileID: 364533814}
   m_Layer: 5
-  m_Name: "\uC778\uBCA4\uD1A0\uB9AC 4"
+  m_Name: Inventory 4
   m_TagString: Slot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5108,7 +5108,7 @@ GameObject:
   - component: {fileID: 387907903}
   - component: {fileID: 387907902}
   m_Layer: 5
-  m_Name: "\uB808\uBCA8\uC5C5 \uBE44\uC6A9"
+  m_Name: AtkPrice
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5200,7 +5200,7 @@ GameObject:
   m_Component:
   - component: {fileID: 393408608}
   m_Layer: 5
-  m_Name: "\uC7A5\uBE44\uC815\uBCF4 6"
+  m_Name: WeaponInfo 6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5239,7 +5239,7 @@ GameObject:
   - component: {fileID: 396192495}
   - component: {fileID: 396192494}
   m_Layer: 5
-  m_Name: "\uAC80 \uC774\uBBF8\uC9C0"
+  m_Name: WeaponImage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5316,7 +5316,7 @@ GameObject:
   - component: {fileID: 398003548}
   - component: {fileID: 398003549}
   m_Layer: 5
-  m_Name: "\uC778\uBCA4\uD1A0\uB9AC 5"
+  m_Name: Inventory 5
   m_TagString: Slot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5531,7 +5531,7 @@ GameObject:
   - component: {fileID: 398387176}
   - component: {fileID: 398387175}
   m_Layer: 5
-  m_Name: "\uC7A5\uCC29\uBC84\uD2BC"
+  m_Name: MountingButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5666,7 +5666,7 @@ GameObject:
   - component: {fileID: 410025223}
   - component: {fileID: 410025228}
   m_Layer: 5
-  m_Name: "\uACE8\uB4DC 1"
+  m_Name: GoldFont0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5796,7 +5796,7 @@ GameObject:
   - component: {fileID: 426167197}
   - component: {fileID: 426167196}
   m_Layer: 5
-  m_Name: "\uBCF4\uC720\uB7C9"
+  m_Name: PotionEa
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5936,7 +5936,7 @@ GameObject:
   - component: {fileID: 457683300}
   - component: {fileID: 457683299}
   m_Layer: 5
-  m_Name: "\uD310\uB9E4\uC815\uBCF4 \uC774\uBBF8\uC9C0"
+  m_Name: SellInfo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6270,7 +6270,7 @@ GameObject:
   - component: {fileID: 479415647}
   - component: {fileID: 479415646}
   m_Layer: 5
-  m_Name: "\uAC80 \uAC15\uD654 \uC218\uCE58 2\uBC88"
+  m_Name: WeaponAmount2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6459,7 +6459,7 @@ GameObject:
   - component: {fileID: 493208993}
   - component: {fileID: 493208992}
   m_Layer: 5
-  m_Name: "\uAC15\uD654\uBE44\uC6A9\uC774\uBBF8\uC9C0"
+  m_Name: AtkPrice
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6537,7 +6537,7 @@ GameObject:
   - component: {fileID: 500830343}
   - component: {fileID: 500830342}
   m_Layer: 5
-  m_Name: "\uAC80 \uC774\uBBF8\uC9C0"
+  m_Name: WeaponImage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6613,7 +6613,7 @@ GameObject:
   - component: {fileID: 505533437}
   - component: {fileID: 505533436}
   m_Layer: 5
-  m_Name: "\uAC15\uD654\uBB38\uAD6C"
+  m_Name: EnforceText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6708,7 +6708,7 @@ GameObject:
   - component: {fileID: 511195527}
   - component: {fileID: 511195526}
   m_Layer: 5
-  m_Name: "\uAD6C\uB9E4 \uACB0\uACFC \uD328\uB110"
+  m_Name: BuyIt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6787,7 +6787,7 @@ GameObject:
   - component: {fileID: 512111488}
   - component: {fileID: 512111487}
   m_Layer: 5
-  m_Name: "2\uB2E8\uACC4 \uAC80"
+  m_Name: Weapon 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6865,7 +6865,7 @@ GameObject:
   - component: {fileID: 515048113}
   - component: {fileID: 515048112}
   m_Layer: 5
-  m_Name: "\uB808\uBCA8\uC5C5"
+  m_Name: LevelUp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6919,7 +6919,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 0.94478446, b: 0.3066038, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -6962,7 +6962,7 @@ GameObject:
   - component: {fileID: 517975757}
   - component: {fileID: 517975756}
   m_Layer: 5
-  m_Name: "\uACE8\uB4DC 3"
+  m_Name: GoldFont2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7183,7 +7183,7 @@ GameObject:
   - component: {fileID: 527727535}
   - component: {fileID: 527727534}
   m_Layer: 5
-  m_Name: "\uAC80 \uC774\uBBF8\uC9C0"
+  m_Name: WeaponImage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7258,7 +7258,7 @@ GameObject:
   - component: {fileID: 527936962}
   - component: {fileID: 527936961}
   m_Layer: 5
-  m_Name: "\uC7A5\uCC29\uC911\uC774\uBBF8\uC9C0"
+  m_Name: Mounting
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7600,7 +7600,7 @@ GameObject:
   - component: {fileID: 546431781}
   - component: {fileID: 546431780}
   m_Layer: 5
-  m_Name: "\uAC80 \uB4F1\uC7A5\uD655\uB960"
+  m_Name: WeaponPercentageAmount
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7695,7 +7695,7 @@ GameObject:
   - component: {fileID: 549317811}
   - component: {fileID: 549317810}
   m_Layer: 5
-  m_Name: "\uC778\uBCA4\uD1A0\uB9AC X\uBC84\uD2BC"
+  m_Name: XButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7838,7 +7838,7 @@ GameObject:
   - component: {fileID: 570051687}
   - component: {fileID: 570051686}
   m_Layer: 5
-  m_Name: "\uAC00\uB9BC\uB9C9"
+  m_Name: Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7914,7 +7914,7 @@ GameObject:
   - component: {fileID: 574559423}
   - component: {fileID: 574559422}
   m_Layer: 5
-  m_Name: "\uAC80 \uC218\uCE58"
+  m_Name: WeaponAmount
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8008,7 +8008,7 @@ GameObject:
   - component: {fileID: 575673514}
   - component: {fileID: 575673513}
   m_Layer: 5
-  m_Name: "4\uB2E8\uACC4 \uAC80"
+  m_Name: Weapon 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8085,7 +8085,7 @@ GameObject:
   - component: {fileID: 599602421}
   - component: {fileID: 599602420}
   m_Layer: 5
-  m_Name: "\uC7A5\uCC29\uC911\uC774\uBBF8\uC9C0"
+  m_Name: Mounting
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8161,7 +8161,7 @@ GameObject:
   - component: {fileID: 612681986}
   - component: {fileID: 612681985}
   m_Layer: 5
-  m_Name: "5\uB2E8\uACC4 \uAC80"
+  m_Name: Weapon 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8239,7 +8239,7 @@ GameObject:
   - component: {fileID: 614762080}
   - component: {fileID: 614762079}
   m_Layer: 5
-  m_Name: "\uACF5\uACA9\uB825 (3)"
+  m_Name: PotionGet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8334,7 +8334,7 @@ GameObject:
   - component: {fileID: 640024740}
   - component: {fileID: 640024739}
   m_Layer: 5
-  m_Name: "\uAC80 \uC774\uBBF8\uC9C0"
+  m_Name: WeaponImage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8412,7 +8412,7 @@ GameObject:
   - component: {fileID: 655974787}
   - component: {fileID: 655974788}
   m_Layer: 5
-  m_Name: "\uB370\uBBF8\uC9C0 1"
+  m_Name: DamageFont0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8541,7 +8541,7 @@ GameObject:
   - component: {fileID: 658258147}
   - component: {fileID: 658258146}
   m_Layer: 5
-  m_Name: "\uAC80 \uAD6C\uB9E4 \uC0C1\uC810"
+  m_Name: WeaponBuyShop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8623,7 +8623,7 @@ GameObject:
   - component: {fileID: 668743310}
   - component: {fileID: 668743309}
   m_Layer: 5
-  m_Name: "\uD06C\uB9AC\uC2A4\uD0C8\uD3EC\uC2A4 \uC778\uD130\uD398\uC774\uC2A4"
+  m_Name: CrystalForce
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8703,7 +8703,7 @@ GameObject:
   - component: {fileID: 669404293}
   - component: {fileID: 669404292}
   m_Layer: 5
-  m_Name: "\uAC15\uD654\uBE44\uC6A9\uC774\uBBF8\uC9C0"
+  m_Name: Enforce
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8776,7 +8776,7 @@ GameObject:
   m_Component:
   - component: {fileID: 678840575}
   m_Layer: 5
-  m_Name: "\uAC15\uD654 \uBE44\uC6A9"
+  m_Name: EnforceAmount
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8818,7 +8818,7 @@ GameObject:
   - component: {fileID: 693807187}
   - component: {fileID: 693807186}
   m_Layer: 5
-  m_Name: "\uAC80 \uB4F1\uC7A5\uD655\uB960"
+  m_Name: WeaponPercentageAmount
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9068,7 +9068,7 @@ GameObject:
   - component: {fileID: 721999726}
   - component: {fileID: 721999725}
   m_Layer: 5
-  m_Name: "\uBAAC\uC2A4\uD130 \uB3C4\uAC10 \uCC3D"
+  m_Name: Encyclopedia
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9321,7 +9321,7 @@ GameObject:
   - component: {fileID: 742251198}
   - component: {fileID: 742251197}
   m_Layer: 5
-  m_Name: "\uAC15\uD654 \uAC80 \uC774\uBBF8\uC9C0 2\uBC88"
+  m_Name: EnforceWeaponImage2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9399,7 +9399,7 @@ GameObject:
   - component: {fileID: 751449191}
   - component: {fileID: 751449192}
   m_Layer: 5
-  m_Name: "\uC778\uBCA4\uD1A0\uB9AC 3"
+  m_Name: Inventory 3
   m_TagString: Slot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9688,7 +9688,7 @@ GameObject:
   - component: {fileID: 759052268}
   - component: {fileID: 759052267}
   m_Layer: 5
-  m_Name: "\uAC80 \uC774\uBBF8\uC9C0"
+  m_Name: WeaponImage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9764,7 +9764,7 @@ GameObject:
   - component: {fileID: 760372036}
   - component: {fileID: 760372035}
   m_Layer: 5
-  m_Name: "\uD310\uB9E4\uAC00\uACA9"
+  m_Name: SellIAmount
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9859,7 +9859,7 @@ GameObject:
   - component: {fileID: 768773021}
   - component: {fileID: 768773020}
   m_Layer: 5
-  m_Name: "\uC608 \uBC84\uD2BC"
+  m_Name: YesButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9980,7 +9980,7 @@ GameObject:
   - component: {fileID: 772365164}
   - component: {fileID: 772365163}
   m_Layer: 5
-  m_Name: "\uACF5\uACA9\uB825 \uB808\uBCA8 \uC218\uCE58"
+  m_Name: AtkLevel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10153,7 +10153,7 @@ GameObject:
   - component: {fileID: 789719403}
   - component: {fileID: 789719402}
   m_Layer: 5
-  m_Name: "\uAC80 \uC774\uBBF8\uC9C0"
+  m_Name: WeaponImage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10229,7 +10229,7 @@ GameObject:
   - component: {fileID: 791869200}
   - component: {fileID: 791869199}
   m_Layer: 5
-  m_Name: "\uC7A5\uBE44\uC815\uBCF4\uCC3DX\uBC84\uD2BC"
+  m_Name: XButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10361,7 +10361,7 @@ GameObject:
   - component: {fileID: 792202304}
   - component: {fileID: 792202303}
   m_Layer: 5
-  m_Name: "\uC0AC\uC6A9"
+  m_Name: Use
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10457,7 +10457,7 @@ GameObject:
   - component: {fileID: 795574143}
   - component: {fileID: 795574144}
   m_Layer: 5
-  m_Name: "\uC778\uBCA4\uD1A0\uB9AC 9"
+  m_Name: Inventory 9
   m_TagString: Slot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10672,7 +10672,7 @@ GameObject:
   - component: {fileID: 818942206}
   - component: {fileID: 818942205}
   m_Layer: 5
-  m_Name: "\uC124\uC815X\uBC84\uD2BC"
+  m_Name: XButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10898,7 +10898,7 @@ GameObject:
   - component: {fileID: 827613764}
   - component: {fileID: 827613763}
   m_Layer: 5
-  m_Name: "\uAC80 \uC774\uBBF8\uC9C0"
+  m_Name: WeaponImage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10976,7 +10976,7 @@ GameObject:
   - component: {fileID: 830813764}
   - component: {fileID: 830813763}
   m_Layer: 5
-  m_Name: "\uB370\uBBF8\uC9C0 3"
+  m_Name: DamageFont2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11200,7 +11200,7 @@ GameObject:
   - component: {fileID: 850519299}
   - component: {fileID: 850519298}
   m_Layer: 5
-  m_Name: "\uAC80 \uC774\uBBF8\uC9C0"
+  m_Name: WeaponImage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11371,7 +11371,7 @@ GameObject:
   - component: {fileID: 875057999}
   - component: {fileID: 875057998}
   m_Layer: 5
-  m_Name: "\uAC15\uD654\uBE44\uC6A9 \uD14D\uC2A4\uD2B8"
+  m_Name: EnforcePriceText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11465,7 +11465,7 @@ GameObject:
   - component: {fileID: 885182246}
   - component: {fileID: 885182245}
   m_Layer: 5
-  m_Name: "\uD50C\uB808\uC774\uC5B4 \uC774\uBBF8\uC9C0"
+  m_Name: PlayerImage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11541,7 +11541,7 @@ GameObject:
   - component: {fileID: 890452588}
   - component: {fileID: 890452587}
   m_Layer: 5
-  m_Name: "\uAC80 \uC774\uB984 \uC218\uCE58"
+  m_Name: WeaponName
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11635,7 +11635,7 @@ GameObject:
   - component: {fileID: 905511074}
   - component: {fileID: 905511073}
   m_Layer: 5
-  m_Name: "\uC774\uBBF8\uC9C0"
+  m_Name: Image
   m_TagString: Slot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11808,7 +11808,7 @@ GameObject:
   - component: {fileID: 926149791}
   - component: {fileID: 926149790}
   m_Layer: 5
-  m_Name: "\uAC15\uD654\uBB38\uAD6C"
+  m_Name: EnforceText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11902,7 +11902,7 @@ GameObject:
   - component: {fileID: 930001007}
   - component: {fileID: 930001006}
   m_Layer: 5
-  m_Name: "7\uB2E8\uACC4 \uAC80"
+  m_Name: Weapon 7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11980,7 +11980,7 @@ GameObject:
   - component: {fileID: 933012585}
   - component: {fileID: 933012584}
   m_Layer: 5
-  m_Name: "\uAC15\uD654\uBE44\uC6A9 \uD14D\uC2A4\uD2B8"
+  m_Name: EnforceText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12075,7 +12075,7 @@ GameObject:
   - component: {fileID: 939529414}
   - component: {fileID: 939529415}
   m_Layer: 5
-  m_Name: "\uACE8\uB4DC \uC218\uCE58"
+  m_Name: GoldAmount
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12169,7 +12169,7 @@ GameObject:
   - component: {fileID: 940310452}
   - component: {fileID: 940310451}
   m_Layer: 5
-  m_Name: "\uC124\uC815"
+  m_Name: Setting
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12251,7 +12251,7 @@ GameObject:
   - component: {fileID: 950317564}
   - component: {fileID: 950317563}
   m_Layer: 5
-  m_Name: "\uC7A5\uCC29\uC911\uC774\uBBF8\uC9C0"
+  m_Name: EImage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12327,7 +12327,7 @@ GameObject:
   - component: {fileID: 951427741}
   - component: {fileID: 951427740}
   m_Layer: 5
-  m_Name: "0\uB2E8\uACC4 \uAC80"
+  m_Name: Weapon 0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12404,7 +12404,7 @@ GameObject:
   - component: {fileID: 951590426}
   - component: {fileID: 951590425}
   m_Layer: 5
-  m_Name: "\uD654\uC0B4\uD45C \uC774\uBBF8\uC9C0"
+  m_Name: ArrowImage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12481,7 +12481,7 @@ GameObject:
   - component: {fileID: 953185933}
   - component: {fileID: 953185932}
   m_Layer: 5
-  m_Name: "\uC0AC\uC6A9 \uBC84\uD2BC"
+  m_Name: UseButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12698,7 +12698,7 @@ GameObject:
   - component: {fileID: 976813383}
   - component: {fileID: 976813382}
   m_Layer: 5
-  m_Name: "\uBB34\uAE30 \uACF5\uACA9\uB825"
+  m_Name: WeaponAtk
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12792,7 +12792,7 @@ GameObject:
   - component: {fileID: 979615961}
   - component: {fileID: 979615960}
   m_Layer: 5
-  m_Name: "\uAC15\uD654\uBE44\uC6A9\uC774\uBBF8\uC9C0"
+  m_Name: EnforcePrice
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12940,7 +12940,7 @@ GameObject:
   - component: {fileID: 994967024}
   - component: {fileID: 994967023}
   m_Layer: 5
-  m_Name: "\uAC15\uD654 \uBC84\uD2BC"
+  m_Name: EnforceButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13496,7 +13496,7 @@ GameObject:
   - component: {fileID: 1025335389}
   - component: {fileID: 1025335390}
   m_Layer: 5
-  m_Name: "\uC778\uBCA4\uD1A0\uB9AC 2"
+  m_Name: Inventory 2
   m_TagString: Slot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13761,7 +13761,7 @@ GameObject:
   - component: {fileID: 1046399036}
   - component: {fileID: 1046399035}
   m_Layer: 5
-  m_Name: "\uC0C1\uC810\uC120\uD0DD \uCC3D"
+  m_Name: Shop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13840,7 +13840,7 @@ GameObject:
   - component: {fileID: 1065553403}
   - component: {fileID: 1065553402}
   m_Layer: 5
-  m_Name: "\uB3C4\uAC10 \uBC84\uD2BC"
+  m_Name: EncyclopediaButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13959,7 +13959,7 @@ GameObject:
   - component: {fileID: 1074341154}
   - component: {fileID: 1074341153}
   m_Layer: 5
-  m_Name: "\uAC80 \uC774\uBBF8\uC9C0"
+  m_Name: WeaponImage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14036,7 +14036,7 @@ GameObject:
   - component: {fileID: 1109751432}
   - component: {fileID: 1109751433}
   m_Layer: 5
-  m_Name: "\uC778\uBCA4\uD1A0\uB9AC 1"
+  m_Name: Inventory 1
   m_TagString: Slot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14250,7 +14250,7 @@ GameObject:
   - component: {fileID: 1119725437}
   - component: {fileID: 1119725436}
   m_Layer: 5
-  m_Name: "\uAC80 \uC774\uBBF8\uC9C0"
+  m_Name: WeaponImage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14325,7 +14325,7 @@ GameObject:
   - component: {fileID: 1122821279}
   - component: {fileID: 1122821278}
   m_Layer: 5
-  m_Name: "\uACE8\uB4DC \uC774\uBBF8\uC9C0"
+  m_Name: GoldImage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14400,7 +14400,7 @@ GameObject:
   - component: {fileID: 1140869930}
   - component: {fileID: 1140869929}
   m_Layer: 5
-  m_Name: "3\uB2E8\uACC4 \uAC80"
+  m_Name: Weapon 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14522,7 +14522,7 @@ GameObject:
   - component: {fileID: 1152305444}
   - component: {fileID: 1152305443}
   m_Layer: 5
-  m_Name: "\uC544\uB2C8\uC694 \uBC84\uD2BC"
+  m_Name: NoButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14842,7 +14842,7 @@ GameObject:
   - component: {fileID: 1171350292}
   - component: {fileID: 1171350295}
   m_Layer: 5
-  m_Name: "\uD3EC\uC158 \uBC84\uD2BC"
+  m_Name: PotionButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14990,7 +14990,7 @@ GameObject:
   - component: {fileID: 1173599746}
   - component: {fileID: 1173599745}
   m_Layer: 5
-  m_Name: "\uAC80 \uB4F1\uC7A5\uD655\uB960"
+  m_Name: WeaponPercentageAmount
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15084,7 +15084,7 @@ GameObject:
   - component: {fileID: 1197494764}
   - component: {fileID: 1197494763}
   m_Layer: 5
-  m_Name: "\uAC80 \uB4F1\uC7A5 \uD655\uB960\uD45C"
+  m_Name: WeaponPercentage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15166,7 +15166,7 @@ GameObject:
   - component: {fileID: 1218267247}
   - component: {fileID: 1218267248}
   m_Layer: 5
-  m_Name: "BGM\uC2AC\uB77C\uC774\uB354"
+  m_Name: BGMSlider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15258,7 +15258,7 @@ GameObject:
   - component: {fileID: 1220112676}
   - component: {fileID: 1220112675}
   m_Layer: 5
-  m_Name: "\uC0C1\uC810 \uBC84\uD2BC"
+  m_Name: ShopButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15389,7 +15389,7 @@ GameObject:
   - component: {fileID: 1220603863}
   - component: {fileID: 1220603862}
   m_Layer: 5
-  m_Name: "\uAC15\uD654 \uC778\uD130\uD398\uC774\uC2A4"
+  m_Name: EnforcePanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15567,7 +15567,7 @@ GameObject:
   - component: {fileID: 1232141626}
   - component: {fileID: 1232141625}
   m_Layer: 5
-  m_Name: "\uAC80 \uC774\uBBF8\uC9C0"
+  m_Name: WeaponImage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15642,7 +15642,7 @@ GameObject:
   - component: {fileID: 1245067159}
   - component: {fileID: 1245067158}
   m_Layer: 5
-  m_Name: "\uAC80 \uC774\uBBF8\uC9C0"
+  m_Name: WeaponImage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15718,7 +15718,7 @@ GameObject:
   - component: {fileID: 1246002598}
   - component: {fileID: 1246002597}
   m_Layer: 5
-  m_Name: "\uAC80 \uB4F1\uC7A5\uD655\uB960"
+  m_Name: WeaponPercentageAmount
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15813,7 +15813,7 @@ GameObject:
   - component: {fileID: 1258437609}
   - component: {fileID: 1258437608}
   m_Layer: 5
-  m_Name: "\uAC80 \uB4F1\uC7A5\uD655\uB960"
+  m_Name: WeaponPercentageAmount
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15907,7 +15907,7 @@ GameObject:
   - component: {fileID: 1276289289}
   - component: {fileID: 1276289288}
   m_Layer: 5
-  m_Name: "1\uB2E8\uACC4 \uAC80"
+  m_Name: Weapon 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16060,7 +16060,7 @@ GameObject:
   - component: {fileID: 1294253539}
   - component: {fileID: 1294253538}
   m_Layer: 5
-  m_Name: "\uC124\uC815 \uBC84\uD2BC"
+  m_Name: SettingButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16177,7 +16177,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1305026320}
   m_Layer: 5
-  m_Name: "\uAC15\uD654\uD655\uB960 \uC815\uBCF4"
+  m_Name: PercentageInfo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16217,7 +16217,7 @@ GameObject:
   - component: {fileID: 1321826926}
   - component: {fileID: 1321826925}
   m_Layer: 5
-  m_Name: "\uAC15\uD654 \uACB0\uACFC\uCC3D"
+  m_Name: EnforceResult
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16388,7 +16388,7 @@ GameObject:
   - component: {fileID: 1336338613}
   - component: {fileID: 1336338612}
   m_Layer: 5
-  m_Name: "\uAC15\uD654\uBE44\uC6A9 \uD14D\uC2A4\uD2B8"
+  m_Name: AtkPriceText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16483,7 +16483,7 @@ GameObject:
   - component: {fileID: 1340523934}
   - component: {fileID: 1340523933}
   m_Layer: 5
-  m_Name: "\uAC80 \uB4F1\uC7A5\uD655\uB960"
+  m_Name: WeaponPercentageAmount
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16578,7 +16578,7 @@ GameObject:
   - component: {fileID: 1347993948}
   - component: {fileID: 1347993947}
   m_Layer: 5
-  m_Name: "\uD655\uC778 \uBC84\uD2BC"
+  m_Name: OkButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16806,7 +16806,7 @@ GameObject:
   - component: {fileID: 1371869446}
   - component: {fileID: 1371869445}
   m_Layer: 5
-  m_Name: "\uD50C\uB808\uC774\uC5B4 \uACF5\uACA9\uB825 \uAD6C\uB9E4\uBC84\uD2BC"
+  m_Name: PlayerAtkButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17004,7 +17004,7 @@ GameObject:
   - component: {fileID: 1398745843}
   - component: {fileID: 1398745842}
   m_Layer: 5
-  m_Name: "Stop\uBC84\uD2BC"
+  m_Name: StopButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17220,7 +17220,7 @@ GameObject:
   - component: {fileID: 1427724826}
   - component: {fileID: 1427724825}
   m_Layer: 5
-  m_Name: "\uCDE8\uC18C \uBC84\uD2BC"
+  m_Name: XButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17352,7 +17352,7 @@ GameObject:
   - component: {fileID: 1444978304}
   - component: {fileID: 1444978303}
   m_Layer: 5
-  m_Name: "\uAC80 \uC774\uBBF8\uC9C0"
+  m_Name: WeaponImage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17429,7 +17429,7 @@ GameObject:
   - component: {fileID: 1448064150}
   - component: {fileID: 1448064149}
   m_Layer: 5
-  m_Name: "\uACF5\uACA9\uB825\uB2F9"
+  m_Name: Atk
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17523,7 +17523,7 @@ GameObject:
   - component: {fileID: 1459335993}
   - component: {fileID: 1459335992}
   m_Layer: 5
-  m_Name: "\uAC15\uD654\uBE44\uC6A9\uC774\uBBF8\uC9C0"
+  m_Name: EnforcePrice
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17602,7 +17602,7 @@ GameObject:
   - component: {fileID: 1466081267}
   - component: {fileID: 1466081266}
   m_Layer: 5
-  m_Name: "\uBB34\uAE30 \uACF5\uACA9\uB825 \uC218\uCE58"
+  m_Name: NextWeaponAtkAmount
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17697,7 +17697,7 @@ GameObject:
   - component: {fileID: 1476260022}
   - component: {fileID: 1476260021}
   m_Layer: 5
-  m_Name: "\uAC15\uD654\uBE44\uC6A9 \uACE8\uB4DC \uC218\uCE58"
+  m_Name: EnforceGoldAmount
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17791,7 +17791,7 @@ GameObject:
   - component: {fileID: 1482821814}
   - component: {fileID: 1482821813}
   m_Layer: 5
-  m_Name: "\uC7A5\uCC29\uC911\uC774\uBBF8\uC9C0"
+  m_Name: Mounting
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17926,7 +17926,7 @@ GameObject:
   - component: {fileID: 1484893522}
   - component: {fileID: 1484893521}
   m_Layer: 5
-  m_Name: "\uC7A5\uCC29\uC911\uC774\uBBF8\uC9C0"
+  m_Name: Mounting
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18003,7 +18003,7 @@ GameObject:
   - component: {fileID: 1486424828}
   - component: {fileID: 1486424827}
   m_Layer: 5
-  m_Name: "\uAC80 \uB4F1\uC7A5\uD655\uB960"
+  m_Name: WeaponPercentageAmount
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18194,7 +18194,7 @@ GameObject:
   - component: {fileID: 1491059347}
   - component: {fileID: 1491059348}
   m_Layer: 5
-  m_Name: "\uC778\uBCA4\uD1A0\uB9AC 6"
+  m_Name: Inventory 6
   m_TagString: Slot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18406,7 +18406,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1500094602}
   m_Layer: 5
-  m_Name: "\uC7A5\uBE44\uC815\uBCF4 2"
+  m_Name: WeaponInfo 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18445,7 +18445,7 @@ GameObject:
   - component: {fileID: 1500269076}
   - component: {fileID: 1500269075}
   m_Layer: 5
-  m_Name: "\uD50C\uB808\uC774\uC5B4 \uAC15\uD654 \uC0C1\uC810"
+  m_Name: PlayerEnforceShop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18522,7 +18522,7 @@ GameObject:
   - component: {fileID: 1501327090}
   - component: {fileID: 1501327089}
   m_Layer: 5
-  m_Name: "\uAC80 \uB4F1\uC7A5\uD655\uB960"
+  m_Name: WeaponPercentage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18596,7 +18596,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1503216622}
   m_Layer: 5
-  m_Name: "\uC7A5\uBE44\uC815\uBCF4 3"
+  m_Name: WeaponInfo 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18725,7 +18725,7 @@ GameObject:
   - component: {fileID: 1530759094}
   - component: {fileID: 1530759093}
   m_Layer: 5
-  m_Name: "\uAC80 \uAC15\uD654 \uC218\uCE58 1\uBC88"
+  m_Name: WeaponAmount1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18822,7 +18822,7 @@ GameObject:
   - component: {fileID: 1545369105}
   - component: {fileID: 1545369104}
   m_Layer: 5
-  m_Name: "\uACE8\uB4DC 2"
+  m_Name: GoldFont1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18949,7 +18949,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1563350719}
   m_Layer: 5
-  m_Name: "\uC7A5\uBE44\uC815\uBCF4 5"
+  m_Name: WeaponInfo 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18988,7 +18988,7 @@ GameObject:
   - component: {fileID: 1569587592}
   - component: {fileID: 1569587591}
   m_Layer: 5
-  m_Name: "\uAC80 \uC774\uBBF8\uC9C0"
+  m_Name: EnforceWeaponImage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19064,7 +19064,7 @@ GameObject:
   - component: {fileID: 1579449158}
   - component: {fileID: 1579449157}
   m_Layer: 5
-  m_Name: "\uAC80 \uAD6C\uB9E4 \uBC84\uD2BC"
+  m_Name: WeaponBuyButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19184,7 +19184,7 @@ GameObject:
   - component: {fileID: 1582129235}
   - component: {fileID: 1582129234}
   m_Layer: 5
-  m_Name: "\uAC15\uD654\uBE44\uC6A9\uC774\uBBF8\uC9C0"
+  m_Name: AtkPriceImage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19481,7 +19481,7 @@ GameObject:
   - component: {fileID: 1599630062}
   - component: {fileID: 1599630061}
   m_Layer: 5
-  m_Name: "\uAC80 \uC774\uBBF8\uC9C0"
+  m_Name: WeaponImage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19556,7 +19556,7 @@ GameObject:
   - component: {fileID: 1599706839}
   - component: {fileID: 1599706838}
   m_Layer: 5
-  m_Name: "\uD3EC\uC158 \uD31D\uC5C5"
+  m_Name: PotionPopUp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19844,7 +19844,7 @@ GameObject:
   - component: {fileID: 1627183036}
   - component: {fileID: 1627183035}
   m_Layer: 5
-  m_Name: "\uAC80 \uC774\uBBF8\uC9C0"
+  m_Name: WeaponImage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20185,7 +20185,7 @@ GameObject:
   - component: {fileID: 1633279920}
   - component: {fileID: 1633279919}
   m_Layer: 5
-  m_Name: "\uAC80 \uC774\uBBF8\uC9C0"
+  m_Name: WeaponImage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20260,7 +20260,7 @@ GameObject:
   - component: {fileID: 1647086005}
   - component: {fileID: 1647086004}
   m_Layer: 5
-  m_Name: "\uC7A5\uBE44\uC815\uBCF4 \uCC3D"
+  m_Name: WeaponInfo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20346,7 +20346,7 @@ GameObject:
   - component: {fileID: 1649063339}
   - component: {fileID: 1649063338}
   m_Layer: 5
-  m_Name: "\uAC15\uD654\uBC84\uD2BC"
+  m_Name: EnforceButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20542,7 +20542,7 @@ GameObject:
   - component: {fileID: 1658139819}
   - component: {fileID: 1658139818}
   m_Layer: 5
-  m_Name: "X\uBC84\uD2BC"
+  m_Name: XButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20674,7 +20674,7 @@ GameObject:
   - component: {fileID: 1671179084}
   - component: {fileID: 1671179083}
   m_Layer: 5
-  m_Name: "\uD310\uB9E4\uBC84\uD2BC"
+  m_Name: SellButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20804,7 +20804,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1674623309}
   m_Layer: 5
-  m_Name: "\uC7A5\uBE44\uC815\uBCF4 0"
+  m_Name: WeaponInfo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20844,7 +20844,7 @@ GameObject:
   - component: {fileID: 1687353825}
   - component: {fileID: 1687353824}
   m_Layer: 5
-  m_Name: "\uAC80 \uB4F1\uC7A5\uD655\uB960"
+  m_Name: WeaponPercentage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20939,7 +20939,7 @@ GameObject:
   - component: {fileID: 1687517739}
   - component: {fileID: 1687517738}
   m_Layer: 5
-  m_Name: "\uB808\uBCA8\uC5C5"
+  m_Name: Level
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21033,7 +21033,7 @@ GameObject:
   - component: {fileID: 1693385837}
   - component: {fileID: 1693385836}
   m_Layer: 5
-  m_Name: "\uD50C\uB808\uC774\uC5B4 \uC774\uBBF8\uC9C0"
+  m_Name: PlayerImage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21108,7 +21108,7 @@ GameObject:
   - component: {fileID: 1697111543}
   - component: {fileID: 1697111542}
   m_Layer: 5
-  m_Name: "\uACE8\uB4DC\uBC30\uACBD"
+  m_Name: GoldPanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21184,7 +21184,7 @@ GameObject:
   - component: {fileID: 1701830295}
   - component: {fileID: 1701830294}
   m_Layer: 5
-  m_Name: "\uD50C\uB808\uC774\uC5B4 \uAC15\uD654\uC0C1\uC810 X\uBC84\uD2BC"
+  m_Name: XButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21348,7 +21348,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1714830674}
   m_Layer: 5
-  m_Name: "\uC7A5\uBE44\uC815\uBCF4 7"
+  m_Name: WeaponInfo 7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21388,7 +21388,7 @@ GameObject:
   - component: {fileID: 1717017135}
   - component: {fileID: 1717017134}
   m_Layer: 5
-  m_Name: "\uAC80 \uB4F1\uC7A5\uD655\uB960"
+  m_Name: WeaponPercentageAmount
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21550,7 +21550,7 @@ GameObject:
   - component: {fileID: 1724533655}
   - component: {fileID: 1724533654}
   m_Layer: 5
-  m_Name: "\uAC8C\uC784\uC885\uB8CC \uD328\uB110"
+  m_Name: GameEnd
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21630,7 +21630,7 @@ GameObject:
   - component: {fileID: 1736003799}
   - component: {fileID: 1736003798}
   m_Layer: 5
-  m_Name: "\uC778\uBCA4\uD1A0\uB9AC \uBC84\uD2BC"
+  m_Name: InventoryButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21750,7 +21750,7 @@ GameObject:
   - component: {fileID: 1742192854}
   - component: {fileID: 1742192853}
   m_Layer: 5
-  m_Name: "\uAC80 \uAC15\uD654\uC218\uCE58"
+  m_Name: WeaponAmount
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21845,7 +21845,7 @@ GameObject:
   - component: {fileID: 1748454391}
   - component: {fileID: 1748454390}
   m_Layer: 5
-  m_Name: "\uD50C\uB808\uC774\uC5B4 \uAC15\uD654\uC0C1\uC810 X\uBC84\uD2BC"
+  m_Name: XButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22080,7 +22080,7 @@ GameObject:
   - component: {fileID: 1760652526}
   - component: {fileID: 1760652525}
   m_Layer: 5
-  m_Name: "\uC0C1\uC810 X\uBC84\uD2BC"
+  m_Name: XButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22211,7 +22211,7 @@ GameObject:
   - component: {fileID: 1765377590}
   - component: {fileID: 1765377589}
   m_Layer: 5
-  m_Name: "\uAC80 \uC774\uB984"
+  m_Name: WeaponName
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22382,7 +22382,7 @@ GameObject:
   - component: {fileID: 1802930919}
   - component: {fileID: 1802930918}
   m_Layer: 5
-  m_Name: "\uAC80 \uC774\uBBF8\uC9C0"
+  m_Name: WeaponImage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22501,7 +22501,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1829386080}
   m_Layer: 5
-  m_Name: "\uC7A5\uBE44\uC815\uBCF4 0"
+  m_Name: WeaponInfo 0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22541,7 +22541,7 @@ GameObject:
   - component: {fileID: 1830863302}
   - component: {fileID: 1830863301}
   m_Layer: 5
-  m_Name: "X\uBC84\uD2BC"
+  m_Name: XButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22859,7 +22859,7 @@ GameObject:
   - component: {fileID: 1846853172}
   - component: {fileID: 1846853171}
   m_Layer: 5
-  m_Name: "\uAC80 \uC218\uCE58"
+  m_Name: WeaponAmount
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22953,7 +22953,7 @@ GameObject:
   - component: {fileID: 1852639512}
   - component: {fileID: 1852639511}
   m_Layer: 5
-  m_Name: "\uAC80 \uC774\uBBF8\uC9C0"
+  m_Name: WeaponImage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23029,7 +23029,7 @@ GameObject:
   - component: {fileID: 1862478801}
   - component: {fileID: 1862478800}
   m_Layer: 5
-  m_Name: "\uAC80 \uAC15\uD654 \uC218\uCE58"
+  m_Name: WeaponEnforce
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23123,7 +23123,7 @@ GameObject:
   - component: {fileID: 1871488930}
   - component: {fileID: 1871488929}
   m_Layer: 5
-  m_Name: "\uAC15\uD654\uD655\uB960 \uC774\uBBF8\uC9C0"
+  m_Name: PercentageImage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23199,7 +23199,7 @@ GameObject:
   - component: {fileID: 1874781778}
   - component: {fileID: 1874781777}
   m_Layer: 5
-  m_Name: "\uACF5\uACA9\uB825"
+  m_Name: Atk
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23296,7 +23296,7 @@ GameObject:
   - component: {fileID: 1879932813}
   - component: {fileID: 1879932812}
   m_Layer: 5
-  m_Name: "\uB370\uBBF8\uC9C0 2"
+  m_Name: DamageFont1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23649,7 +23649,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1918436925}
   m_Layer: 5
-  m_Name: "\uC7A5\uBE44\uC815\uBCF4 1"
+  m_Name: WeaponInfo 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23690,7 +23690,7 @@ GameObject:
   - component: {fileID: 1935291523}
   - component: {fileID: 1935291524}
   m_Layer: 5
-  m_Name: "\uC778\uBCA4\uD1A0\uB9AC 8"
+  m_Name: Inventory 8
   m_TagString: Slot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23904,7 +23904,7 @@ GameObject:
   - component: {fileID: 1962082328}
   - component: {fileID: 1962082327}
   m_Layer: 5
-  m_Name: "\uAC80 \uC774\uBBF8\uC9C0"
+  m_Name: WeaponImage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24237,7 +24237,7 @@ GameObject:
   - component: {fileID: 1986582635}
   - component: {fileID: 1986582634}
   m_Layer: 5
-  m_Name: "\uBB34\uAE30 \uACF5\uACA9\uB825"
+  m_Name: NextWeaponAtk
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24501,7 +24501,7 @@ GameObject:
   - component: {fileID: 2014538294}
   - component: {fileID: 2014538293}
   m_Layer: 5
-  m_Name: "\uAC80 \uC774\uBBF8\uC9C0"
+  m_Name: WeaponImage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24576,7 +24576,7 @@ GameObject:
   - component: {fileID: 2015003931}
   - component: {fileID: 2015003930}
   m_Layer: 5
-  m_Name: "\uD50C\uB808\uC774\uC5B4 \uACF5\uACA9\uB825 \uAC15\uD654 "
+  m_Name: PlayerAtk
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24656,7 +24656,7 @@ GameObject:
   - component: {fileID: 2023093893}
   - component: {fileID: 2023093892}
   m_Layer: 5
-  m_Name: "\uAC80 \uC774\uBBF8\uC9C0"
+  m_Name: WeaponImage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24732,7 +24732,7 @@ GameObject:
   - component: {fileID: 2036756618}
   - component: {fileID: 2036756617}
   m_Layer: 5
-  m_Name: "\uBB34\uAE30 \uACF5\uACA9\uB825 \uC218\uCE58"
+  m_Name: WeaponAtkAmount
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24827,7 +24827,7 @@ GameObject:
   - component: {fileID: 2048615941}
   - component: {fileID: 2048615940}
   m_Layer: 5
-  m_Name: "\uAC15\uD654\uD655\uB960 \uC218\uCE58"
+  m_Name: PercentageAmount
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24919,7 +24919,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2051117670}
   m_Layer: 5
-  m_Name: "\uD310\uB9E4\uC815\uBCF4"
+  m_Name: SellInfo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25055,7 +25055,7 @@ GameObject:
   - component: {fileID: 2085032832}
   - component: {fileID: 2085032831}
   m_Layer: 5
-  m_Name: "\uC7A5\uCC29\uC911\uC774\uBBF8\uC9C0"
+  m_Name: Mounting
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25131,7 +25131,7 @@ GameObject:
   - component: {fileID: 2085759336}
   - component: {fileID: 2085759335}
   m_Layer: 5
-  m_Name: "\uB2E4\uC74C\uB2E8\uACC4 \uBB34\uAE30 \uACF5\uACA9\uB825"
+  m_Name: NextWeaponAtk
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25208,7 +25208,7 @@ GameObject:
   - component: {fileID: 2091574848}
   - component: {fileID: 2091574847}
   m_Layer: 5
-  m_Name: "\uAC15\uD654 \uAC80 \uC774\uBBF8\uC9C0 1\uBC88"
+  m_Name: EnforceWeaponImage1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25373,7 +25373,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2103820618}
   m_Layer: 5
-  m_Name: "\uC7A5\uBE44\uC815\uBCF4 8"
+  m_Name: WeaponInfo 8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25465,7 +25465,7 @@ GameObject:
   - component: {fileID: 2124384057}
   - component: {fileID: 2124384059}
   m_Layer: 0
-  m_Name: "\uB9C8\uC6B0\uC2A4 \uD3EC\uC778\uD130"
+  m_Name: MousePointer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
